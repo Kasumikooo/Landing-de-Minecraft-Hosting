@@ -1,0 +1,20 @@
+body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #0d1117; /* Un fondo casi negro, típico de sitios tech/gaming */
+            margin: 0;
+            padding: 0;
+        }
+        .hero-bg {
+            background: linear-gradient(rgba(13, 17, 23, 0.9), rgba(13, 17, 23, 0.9)), 
+                        url('https://images.unsplash.com/photo-1612287230202-60de1e07a27d?q=80&w=2070&auto=format&fit=crop') no-repeat center center;
+            background-size: cover;
+        }
+        .plan-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 0 40px rgba(99, 102, 241, 0.4); /* Sombra con el color de la marca */
+        }
+
+strong {
+    font-family: "Poppins";
+    font-weight: 600;
+}
