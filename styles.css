@@ -14,6 +14,19 @@ body {
             box-shadow: 0 0 40px rgba(99, 102, 241, 0.4); /* Sombra con el color de la marca */
         }
 
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #26303d;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #161e29;
+    border-radius: 90px;
+}
+
 strong {
     font-family: "Poppins";
     font-weight: 600;
@@ -22,3 +35,8 @@ strong {
 .npm {
     font-weight: 600;
 }
+
+header div span{
+    color: rgb(129 140 248);
+}
+
