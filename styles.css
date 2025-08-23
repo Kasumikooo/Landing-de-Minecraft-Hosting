@@ -1,6 +1,6 @@
 body {
             font-family: 'Poppins', sans-serif;
-            background-color: #0d1117; /* Un fondo casi negro, típico de sitios tech/gaming */
+            background-color: #0d1117;
             margin: 0;
             padding: 0;
         }
@@ -11,7 +11,7 @@ body {
         }
         .plan-card:hover {
             transform: translateY(-8px);
-            box-shadow: 0 0 40px rgba(99, 102, 241, 0.4); /* Sombra con el color de la marca */
+            box-shadow: 0 0 40px rgba(99, 102, 241, 0.4);
         }
 
 ::-webkit-scrollbar{
