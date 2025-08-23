@@ -20,6 +20,7 @@ body {
 
 ::-webkit-scrollbar-track{
     background-color: #26303d;
+    background: #669ce2;
 }
 
 ::-webkit-scrollbar-thumb{
@@ -40,3 +41,15 @@ header div span{
     color: rgb(129 140 248);
 }
 
+main img {
+    opacity: 46%;
+    mask-image: linear-gradient(
+        black 63%,
+        transparent
+    )
+}
+
+#section1 h4{
+    font-weight: bold;
+    
+}
